@@ -25,6 +25,7 @@ if(isset($_GET['ordenar']) || isset($_GET['ver']))
 <TITLE>Gestión de Producción</TITLE>
 <!-- InstanceEndEditable -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="refresh" content="60">
 <!-- InstanceBeginEditable name="head" -->
 
 <!-- InstanceEndEditable -->

@@ -1412,8 +1412,8 @@ function GES_VerificarMOB(ot, iten, num, add)
 
 <!-##################### Se llama cuando se cambia el estado de una MOB ###################-->
 <script type="text/javascript">
-function GES_SetEstadoMOB(desc, ot, iten, num, add, fecha)
-	{
+function GES_SetEstadoMOB(desc, ot, iten, num, add)
+	{        
 	if(desc!='-')
 		{
 		var hacer = confirm('El estado actual del Trabajo es: '+desc+'... Seguro que desea Desactivarlo?');
@@ -1423,10 +1423,10 @@ function GES_SetEstadoMOB(desc, ot, iten, num, add, fecha)
 			parent.document.getElementById(id).checked = true;		// Seteo el check como activado
 			}
 		else
-			parent.myframe.location = '../PopUps/acciones.php?accion=unset_mob&ot='+ot+'&item='+iten+'&numero='+num+'&agregado='+add+'&fecha='+fecha;
+			parent.myframe.location = '../PopUps/acciones.php?accion=unset_mob&ot='+ot+'&item='+iten+'&numero='+num+'&agregado='+add;
 		}
 	else
-		parent.myframe.location = '../PopUps/acciones.php?accion=unset_mob&ot='+ot+'&item='+iten+'&numero='+num+'&agregado='+add+'&fecha='+fecha;
+		parent.myframe.location = '../PopUps/acciones.php?accion=unset_mob&ot='+ot+'&item='+iten+'&numero='+num+'&agregado='+add;
 			
 	return true;
 	}

@@ -50,16 +50,17 @@ switch($accion)
 				{
 				$res = $conex->Execute("SELECT descripcion FROM estado WHERE tipo=1 AND id=$estado");
 				$descripcion = $res->fields['descripcion'];
-				?>
-				<script language="javascript">	GES_SetEstadoMOB(<?php echo "'$descripcion'"?>, <?php echo $ot?>, <?php echo $item?>, <?php echo $numero?>, <?php echo $agregado?>, <?php echo "'$fecha'"?>) </script>
+                  Debugger("Armo el link a GES_SetEstadoMOB(descripcion=$descripcion, ot=$ot, item=$item, numero=$numero,agregado=$agregado");
+				?>                    
+				<script language="javascript">	GES_SetEstadoMOB(<?php echo "'$descripcion'"?>, <?php echo $ot?>, <?php echo $item?>, <?php echo $numero?>, <?php echo $agregado?>) </script>
 				<?php
 				}
 			else
 				{
-                    file_put_contents($_SESSION['pathroot'].'/log_'.date("j.n.Y").'.log', "No encontré resultados".PHP_EOL, FILE_APPEND);
 				$descripcion = "-";
+                Debugger("Armo el link a GES_SetEstadoMOB(descripcion=$descripcion, ot=$ot, item=$item, numero=$numero,agregado=$agregado");
 				?>
-				<script language="javascript">	GES_SetEstadoMOB(<?php echo "'$descripcion'"?>, <?php echo $ot?>, <?php echo $item?>, <?php echo $numero?>, <?php echo $agregado?>, <?php echo "'$fecha'"?>) </script>
+				<script language="javascript">	GES_SetEstadoMOB(<?php echo "'$descripcion'"?>, <?php echo $ot?>, <?php echo $item?>, <?php echo $numero?>, <?php echo $agregado?>) </script>
 				<?php
 				}
 			}
