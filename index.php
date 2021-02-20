@@ -12,7 +12,7 @@ $_SESSION['raiz']="http://".$_SESSION['address']."/Rectificadora/";
 $_SESSION['imagenes']="http://".$_SESSION['address']."/Rectificadora/Imagenes";
 $_SESSION['menu']="http://".$_SESSION['address']."/Rectificadora/Js/stmenu.js";
 $_SESSION['pathroot'] = getcwd();
-$_SESSION['debug'] = true;
+$_SESSION['debug'] = false;
 $_SESSION['user_gr'] = new GR();
 Debugger('INICIO DE LA APLICACION');
 ?>
