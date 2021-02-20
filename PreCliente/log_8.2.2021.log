@@ -1,0 +1,16 @@
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%CHAINTIOU%' ORDER BY nro_pres DESC
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%CHAINTIOU%' ORDER BY nro_pres DESC
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%GARCIA%' ORDER BY nro_pres DESC
+funciones.php-PRECLI_BuscarPresupuesto. tipo = 1
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%GARCIA%' ORDER BY nro_pres DESC
+funciones.php-PRECLI_BuscarPresupuesto. tipo =1
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%GARCIA%' ORDER BY nro_pres DESC
+funciones.php-PRECLI_BuscarPresupuesto. tipo =1
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%GARCIA%' ORDER BY nro_pres DESC
+MostarBusqueda(tipo 1)
+funciones.php-PRECLI_BuscarPresupuesto. tipo =1
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%GARCIA%' ORDER BY nro_pres DESC
+MostarBusqueda(tipo 1)
+PATH_APP
+funciones.php-PRECLI_BuscarPresupuesto. tipo =1
+SELECT fecha, nombre, desc_motor, nro_pres AS nro, nro_std FROM pce WHERE 1 AND nombre LIKE '%GARCIA%' ORDER BY nro_pres DESC
